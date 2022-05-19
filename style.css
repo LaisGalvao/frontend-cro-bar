@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
+    BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
+    font-weight: bold;
+  
+}
+
+
+.header{
+	margin-top: 5%;
+}
+
+
+.progressbar {
+  background-color: #22121e;
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  color: antiquewhite;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 1%;
+  font-size: 1rem;
+}
+
+
+@media screen and (max-width: 920px) {
+    
+.progressbar {
+    background-color: #22121e;
+    width: 100%;
+    height: 25px;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 3%;
+    font-size: 0.75rem;
+  }
+}
