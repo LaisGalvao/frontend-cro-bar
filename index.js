@@ -7,7 +7,7 @@ window.onload = (sum) => {
   document.body.appendChild(bar);
 
   let price = 100;
-  let carrinho = [];
+  let carrinho = [12, 24, 36];
 
   if (carrinho.length > 0) {
     sum = carrinho.reduce((s, i) => {
