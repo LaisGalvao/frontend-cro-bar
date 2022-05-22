@@ -1,8 +1,8 @@
 # pmweb-frontend-cro-test
 # Teste realizado para a vaga de Front-end JR da Pmweb
 
-OBJETIVO: Estimular o usuário a efetuar um maior número de compras com o uso de uma barra progressiva que indique que a partir de R$100 em compras, o frete é grátis.
-DESCRIÇÃO: Conforme o consumidor for adicionando/removendo produtos ao carrinho, a barra de progresso do frete grátis irá avançando ou retrocedendo.
+- OBJETIVO: Estimular o usuário a efetuar um maior número de compras com o uso de uma barra progressiva que indique que a partir de R$100 em compras, o frete é grátis.
+- DESCRIÇÃO: Conforme o consumidor for adicionando/removendo produtos ao carrinho, a barra de progresso do frete grátis irá avançando ou retrocedendo.
 
 ## PASSOS PARA REPRODUZIR:
 
@@ -20,4 +20,3 @@ DESCRIÇÃO: Conforme o consumidor for adicionando/removendo produtos ao carrinh
  <img src="https://github.com/LaisGalvao/pmweb-frontend-cro-test/blob/main/images/barracheia.png" width="500" height="500" />
 
  - ao ter certeza de que estava minimamente funcional, fui adicionando e adaptando o código no navegador até obter o resultado desejado.
-
