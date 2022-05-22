@@ -16,12 +16,12 @@ body {
 
 .colorbar {
   display: block;
-  /*   background: rgb(195, 23, 180); */
+    background: rgb(195, 23, 180);
   background: linear-gradient(
     90deg,
     rgba(195, 23, 180, 1) 9%,
     rgba(122, 11, 171, 1) 100%
-  );
+  ) !important;
   width: 0%;
   height:  -webkit-fill-available;
   z-index: -12;
@@ -67,12 +67,12 @@ body {
 
   .colorbar {
     display: block;
-    /*   background: rgb(195, 23, 180); */
+      background: rgb(195, 23, 180);
     background: linear-gradient(
       90deg,
       rgba(195, 23, 180, 1) 9%,
       rgba(122, 11, 171, 1) 100%
-    );
+    ) !important;
     width: 0%;
 
     z-index: -12;

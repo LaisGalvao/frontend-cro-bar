@@ -7,7 +7,7 @@ window.onload = (sum) => {
   document.body.appendChild(bar);
 
   let price = 100;
-  let carrinho = [12, 36];
+  let carrinho = [100];
 
   if (carrinho.length > 0) {
     sum = carrinho.reduce((s, i) => {
@@ -41,7 +41,7 @@ window.onload = (sum) => {
 
   if (sum === price) {
     colorBar.style.width = result + "%";
-    bar.append(colorBar);
     bar.textContent = "Parabéns! O frete é por nossa conta.".toUpperCase();
+    bar.appendChild(colorBar);
   }
 };
