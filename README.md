@@ -20,3 +20,6 @@
  <img src="https://github.com/LaisGalvao/pmweb-frontend-cro-test/blob/main/images/barracheia.png" width="500" height="500" />
 
  - ao ter certeza de que estava minimamente funcional, fui adicionando e adaptando o código no navegador até obter o resultado desejado.
+
+## DEMONSTRAÇÃO: 
+![demonstração código](https://media.giphy.com/media/ZFQ3YfDITZDRwQE3bW/giphy.gif)
