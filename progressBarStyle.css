@@ -1,9 +1,62 @@
-
-
 .header {
-    margin-top: 5%;
+  margin-top: 5%;
+}
+
+.colorbar {
+  display: block;
+  /*   background: rgb(195, 23, 180); */
+  background: linear-gradient(
+    90deg,
+    rgba(195, 23, 180, 1) 9%,
+    rgba(122, 11, 171, 1) 100%
+  );
+  width: 0%;
+  height: -webkit-fill-available;
+  z-index: -12;
+  position: absolute;
+  margin-top: -5.5%;
+  bottom: -1%;
+  left: 0%;
+}
+
+.progressbar {
+  background-color: #22121e;
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  color: antiquewhite;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 1%;
+  font-size: 1rem;
+  z-index: 12;
+  content: "Faltam mais R$100,00 para o frete sair de graça!`";
+  font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
+    BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 920px) {
+  .progressbar {
+    background-color: #22121e;
+    width: 100%;
+    height: 25px;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 3%;
+    font-size: 0.75rem;
   }
-  
+
   .colorbar {
     display: block;
     /*   background: rgb(195, 23, 180); */
@@ -13,69 +66,17 @@
       rgba(122, 11, 171, 1) 100%
     );
     width: 0%;
-    height:  -webkit-fill-available;
+
     z-index: -12;
     position: absolute;
-    margin-top: -5.5%;
+    margin-top: -2.5%;
+    height: -webkit-fill-available;
+    z-index: -12;
+    position: absolute;
     bottom: -1%;
-    left: 0%;
+    margin-top: -36px;
   }
-  
-  .progressbar {
-    background-color: #22121e;
-    width: 100%;
-    height: 20px;
-    position: fixed;
-    margin: 0;
-    top: 0;
-    color: antiquewhite;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
-    padding: 1%;
-    font-size: 1rem;
-    z-index: 12;
+  .header {
+    top: 3.5%;
   }
-  
-  @media screen and (max-width: 920px) {
-    .progressbar {
-      background-color: #22121e;
-      width: 100%;
-      height: 25px;
-      position: fixed;
-      margin: 0;
-      top: 0;
-      color: antiquewhite;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      vertical-align: middle;
-      padding: 3%;
-      font-size: 0.75rem;
-    }
-  
-    .colorbar {
-      display: block;
-      /*   background: rgb(195, 23, 180); */
-      background: linear-gradient(
-        90deg,
-        rgba(195, 23, 180, 1) 9%,
-        rgba(122, 11, 171, 1) 100%
-      );
-      width: 0%;
-  
-      z-index: -12;
-      position: absolute;
-      margin-top: -2.5%;
-      height: -webkit-fill-available;
-      z-index: -12;
-      position: absolute;
-      bottom: -1%;
-      margin-top: -36px;
-    }
-    .header{
-        top: 3.5%;
-    }
-  }
-  
+}
