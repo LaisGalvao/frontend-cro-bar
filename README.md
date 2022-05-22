@@ -7,7 +7,7 @@ DESCRIÇÃO: Conforme o consumidor for adicionando/removendo produtos ao carrinh
 ## PASSOS PARA REPRODUZIR:
 
  - abrir o link no Google Chrome, e utilizando a extensão Chrome User Javascript and CSS, adicionei o código JS e CSS que está contido na pasta codigo_desafio
- <img src="https://github.com/LaisGalvao/pmweb-frontend-cro-test/blob/main/images/browser_code.png" width="750" height="700" />
+ <img src="https://github.com/LaisGalvao/pmweb-frontend-cro-test/blob/main/images/browser_code.png" width="750" height="500" />
 
 ## COMO CHEGUEI NA SOLUÇÃO:
 
