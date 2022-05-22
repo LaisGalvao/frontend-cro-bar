@@ -13,7 +13,7 @@ DESCRIÇÃO: Conforme o consumidor for adicionando/removendo produtos ao carrinh
 
  - Foi feito um teste de código em minha máquina local usando VSCode (que está na pasta codigo_base)
  Em meu código reproduzi a barra de frete sugerida no desafio, como na imagem abaixo: 
- <img src="https://github.com/LaisGalvao/pmweb-frontend-cro-test/blob/main/images/barravazia.png" width="500" height="500" />
+ <img src="https://github.com/LaisGalvao/pmweb-frontend-cro-test/blob/main/images/barravazia.png" width="750" height="500" />
 
  - para reproduzir o carrinho, adicionei um array, que recebe um Reduce para somar e fazer a progressbar andar para frente conforme os itens são adicionados. 
  <img src="https://github.com/LaisGalvao/pmweb-frontend-cro-test/blob/main/images/barrametade.png" width="500" height="500" />
